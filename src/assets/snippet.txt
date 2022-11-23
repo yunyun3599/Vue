@@ -16,4 +16,4 @@
         unmounted() {},
         methods: {}
     }
-</script>
+</script
