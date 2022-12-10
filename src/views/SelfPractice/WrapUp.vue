@@ -10,6 +10,11 @@
         <ImgVue></ImgVue>
         <ClassBindingVue></ClassBindingVue>
         <InlineStyleVue></InlineStyleVue>
+        <ListRenderingVue></ListRenderingVue>
+        <br><br>
+        <ConditionRenderingVue></ConditionRenderingVue>
+        <EventVOnVue></EventVOnVue>
+        <EventChangeVue></EventChangeVue>
     </div>
 </template>
 <script>
@@ -23,6 +28,10 @@ import RadioButtonVue from './RadioButton.vue';
 import ImgVue from './ImgVue.vue';
 import ClassBindingVue from './ClassBinding.vue';
 import InlineStyleVue from './InlineStyle.vue';
+import ListRenderingVue from './ListRendering.vue';
+import ConditionRenderingVue from './ConditionRendering.vue';
+import EventVOnVue from './EventVOn.vue';
+import EventChangeVue from './EventChange.vue';
     export default {
         data() {
         },
@@ -35,7 +44,11 @@ import InlineStyleVue from './InlineStyle.vue';
             RadioButtonVue,
             ImgVue,
             ClassBindingVue,
-            InlineStyleVue
+            InlineStyleVue,
+            ListRenderingVue,
+            ConditionRenderingVue,
+            EventVOnVue,
+            EventChangeVue
         }
     }
 </script>
