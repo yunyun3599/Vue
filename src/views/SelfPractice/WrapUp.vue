@@ -15,6 +15,7 @@
         <ConditionRenderingVue></ConditionRenderingVue>
         <EventVOnVue></EventVOnVue>
         <EventChangeVue></EventChangeVue>
+        <ComputedAndWatchVue></ComputedAndWatchVue>
     </div>
 </template>
 <script>
@@ -32,6 +33,7 @@ import ListRenderingVue from './ListRendering.vue';
 import ConditionRenderingVue from './ConditionRendering.vue';
 import EventVOnVue from './EventVOn.vue';
 import EventChangeVue from './EventChange.vue';
+import ComputedAndWatchVue from './ComputedAndWatch.vue';
     export default {
         data() {
         },
@@ -48,7 +50,8 @@ import EventChangeVue from './EventChange.vue';
             ListRenderingVue,
             ConditionRenderingVue,
             EventVOnVue,
-            EventChangeVue
+            EventChangeVue,
+            ComputedAndWatchVue
         }
     }
 </script>
