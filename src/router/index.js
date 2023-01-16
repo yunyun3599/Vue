@@ -129,6 +129,11 @@ const routes = [
     path: '/wrapup',
     name: 'WrapUp',
     component: () => import('../views/SelfPractice/WrapUp.vue')
+  },
+  {
+    path: '/server-databinding',
+    name: 'ServerDataBinding',
+    component: () => import('../views/ServerDataRendering/ServerDataBinding.vue')
   }
 ]
 
