@@ -123,3 +123,14 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - path: '/server-databinding'
 - component: () => import('../views/ServerDataRendering/ServerDataBinding.vue')  
 ```
+
+## 컴포넌트 심화
+- /views/Chapter8_Component_Advance 에 위치
+```
+- path: '/nested-component',
+- component: () => import('../views/Chapter8_Component_Advance/views/NestedComponent.vue')
+```
+```
+- path: '/dynamic-props',
+- component: () => import('../views/Chapter8_Component_Advance/views/DynamicDataProps.vue')
+```

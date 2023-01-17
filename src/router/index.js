@@ -134,6 +134,16 @@ const routes = [
     path: '/server-databinding',
     name: 'ServerDataBinding',
     component: () => import('../views/ServerDataRendering/ServerDataBinding.vue')
+  },
+  {
+    path: '/nested-component',
+    name: 'NestedComponent',
+    component: () => import('../views/Chapter8_Component_Advance/views/NestedComponent.vue')
+  },
+  {
+    path: '/dynamic-props',
+    name: 'DynamicProps',
+    component: () => import('../views/Chapter8_Component_Advance/views/DynamicDataProps.vue')
   }
 ]
 
