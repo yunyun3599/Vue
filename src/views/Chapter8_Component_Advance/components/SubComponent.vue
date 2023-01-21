@@ -29,7 +29,10 @@
             },
             name: {
                 type: String,
-                default: "Olaf"
+                required: true,
+                validator: function(value) {
+                    return ['Olaf', 'Anna', 'Elsa'].indexOf(value) !== -1
+                }
             }
         }
     }

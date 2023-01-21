@@ -144,6 +144,11 @@ const routes = [
     path: '/dynamic-props',
     name: 'DynamicProps',
     component: () => import('../views/Chapter8_Component_Advance/views/DynamicDataProps.vue')
+  },
+  {
+    path: '/parent-components',
+    name: 'ParentComponents',
+    component: () => import('../views/Chapter8_Component_Advance/views/ParentComponents.vue')
   }
 ]
 
