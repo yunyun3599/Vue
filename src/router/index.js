@@ -149,6 +149,11 @@ const routes = [
     path: '/parent-components',
     name: 'ParentComponents',
     component: () => import('../views/Chapter8_Component_Advance/views/ParentComponents.vue')
+  },
+  {
+    path: '/slot-use',
+    name: 'SlotUseLayour',
+    component: () => import('../views/Chapter8_Component_Advance/views/SlotUseLayout.vue')
   }
 ]
 

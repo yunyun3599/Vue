@@ -134,3 +134,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - path: '/dynamic-props',
 - component: () => import('../views/Chapter8_Component_Advance/views/DynamicDataProps.vue')
 ```
+```
+- path: '/slot-use',
+- component: () => import('../views/Chapter8_Component_Advance/views/SlotUseLayout.vue')
+```
