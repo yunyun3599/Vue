@@ -11,7 +11,11 @@
     - ParentComponent2.vue: 자식 컴포넌트의 함수 직접 호출하기
     - ParentComponent3.vue: 자식 컴포넌트에서 부모 컴포넌트로 이벤트 전달하기
     - ParentComponent4.vue: 자식 컴포넌트의 데이터 옵션 값 동기화
+    - SlotUseLayout.vue: slot을 이용하는 부모 컴포넌트
+    - ParentComponent.vue: Provide/Inject 사용 부모 컴포넌트
 - /views: 부모 컴포넌트들이 위치한 폴더
     - SubComponent.vue: 동적 props 중 v-bind를 이용해 전달해야하는 자료형들을 받아 렌더링
         - object, list, boolean 등
     - ChildComponent{n}.vue: ParentComponent{n}.vue 에 대응
+    - SlotLayout.vue: slot 컴포넌트
+    - ChildComponent.vue, GrandChildComponent.vue: provide/inject 사용을 위한 자식 컴포넌트들
