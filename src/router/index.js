@@ -154,6 +154,11 @@ const routes = [
     path: '/slot-use',
     name: 'SlotUseLayour',
     component: () => import('../views/Chapter8_Component_Advance/views/SlotUseLayout.vue')
+  },
+  {
+    path: '/ch9',
+    name: 'Chapter9',
+    component: () => import('../views/chapter9_reusability_composition/ChapterNine.vue')
   }
 ]
 
