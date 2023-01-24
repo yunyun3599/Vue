@@ -138,3 +138,15 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - path: '/slot-use',
 - component: () => import('../views/Chapter8_Component_Advance/views/SlotUseLayout.vue')
 ```
+
+## composition api, mixin, custom directives
+```
+- path: '/ch9',
+- component: () => import('../views/chapter9_reusability_composition/ChapterNine.vue')
+```
+
+## vuex
+```
+- path: '/vuex',
+- component: () => import('../views/chapter11_vuex/VuexComponent.vue')
+```

@@ -159,6 +159,11 @@ const routes = [
     path: '/ch9',
     name: 'Chapter9',
     component: () => import('../views/chapter9_reusability_composition/ChapterNine.vue')
+  },
+  {
+    path: '/vuex',
+    name: 'Vuex',
+    component: () => import('../views/chapter11_vuex/VuexComponent.vue')
   }
 ]
 

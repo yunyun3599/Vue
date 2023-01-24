@@ -7,3 +7,15 @@ module.exports = {
     config.plugins.delete('prefetch');
   }
 }
+// const target = 'http://127.0.0.1:3000';
+// module.exports = {
+//   devServer: {
+//     ports: 8080,
+//     proxy: {
+//       '^/api': {
+//         target, 
+//         changeOrigin: true
+//       }
+//     }
+//   }
+// }
